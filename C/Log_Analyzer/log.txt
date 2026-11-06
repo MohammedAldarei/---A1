@@ -1,0 +1,18 @@
+2026-11-06 08:00:01 INFO System started successfully
+2026-11-06 08:02:14 INFO User admin logged in from 192.168.1.10
+2026-11-06 08:05:33 WARNING FAILED login attempt for user root from 203.0.113.45
+2026-11-06 08:06:02 WARNING FAILED login attempt for user admin from 203.0.113.45
+2026-11-06 08:07:19 INFO Firewall rules loaded
+2026-11-06 08:10:44 ERROR HTTP 404 requested page /admin-backup
+2026-11-06 08:12:08 INFO User guest logged out
+2026-11-06 08:15:27 ERROR HTTP 404 requested page /old-login
+2026-11-06 08:18:51 WARNING FAILED password validation for user test
+2026-11-06 08:20:10 INFO Database connection established
+2026-11-06 08:23:46 INFO Scheduled backup completed
+2026-11-06 08:25:03 WARNING Multiple FAILED authentication attempts detected
+2026-11-06 08:27:39 ERROR HTTP 500 internal server error
+2026-11-06 08:30:12 INFO System health check passed
+2026-11-06 08:33:55 WARNING FAILED login attempt for user support from 198.51.100.27
+2026-11-06 08:35:21 INFO User admin changed account settings
+2026-11-06 08:38:07 ERROR HTTP 404 requested page /config-old
+2026-11-06 08:40:00 INFO System scan completed
