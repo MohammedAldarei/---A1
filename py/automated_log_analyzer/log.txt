@@ -1,0 +1,6 @@
+192.168.1.10 - - [11/Nov/2026:10:20:30] "GET /index.html HTTP/1.1" 200
+192.168.1.15 - - [11/Nov/2026:10:21:30] "GET /search?id=1 UNION SELECT username,password FROM users HTTP/1.1" 200
+192.168.1.20 - - [11/Nov/2026:10:22:30] "GET /../../etc/passwd HTTP/1.1" 404
+192.168.1.25 - - [11/Nov/2026:10:23:30] "GET /home HTTP/1.1" 200
+192.168.1.30 - - [11/Nov/2026:10:24:30] "GET /page?name=<script>alert(1)</script> HTTP/1.1" 200
+192.168.1.35 - - [11/Nov/2026:10:25:30] "GET /index.php HTTP/1.1" 200
