@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DOM XSS Protection</title>
+</head>
+
+<body>
+
+    <h2>DOM XSS Protection</h2>
+
+    <input type="text" id="userInput" placeholder="Enter your text">
+
+    <br><br>
+
+    <button onclick="showUnsafe()">Unsafe Display</button>
+
+    <button onclick="showSafe()">Safe Display</button>
+
+    <h3>Unsafe Result</h3>
+    <div id="unsafeResult"></div>
+
+    <hr>
+
+    <h3>Safe Result</h3>
+    <div id="safeResult"></div>
+
+    <script>
+
+        function showUnsafe() {
+
+            let input = document.getElementById("userInput").value;
+
+            document.getElementById("unsafeResult").innerHTML = input;
+
+        }
+
+        function showSafe() {
+
+            let input = document.getElementById("userInput").value;
+
+            let result = document.getElementById("safeResult");
+
+            result.textContent = input;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
